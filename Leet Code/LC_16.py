@@ -5,7 +5,7 @@ def three_sum_closest(nums, target):
     final_sum = 0
     min_diff = float('inf')
 
-    for i in range(len(nums)):
+    for i in range(len(nums)-2):
         left = i + 1
         right = len(nums) - 1
         while left < right:
