@@ -1,4 +1,5 @@
 def zigzag(s, row):
+    """Zigzag Conversion"""
     curr_row = 0
     nums_row = row
     dir = 1
